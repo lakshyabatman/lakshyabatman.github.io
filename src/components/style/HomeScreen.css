@@ -26,20 +26,20 @@
 
 .AboutMe > p {
     text-align: justify;
-    margin-right: 100px;
+    margin-right: 10vw;
     max-width: 800px;
     font-size: 34px;
     font-weight: 300;
     color:#FFEFEF;
 }
 .MyPic {
-    margin-left: 150px;
+    margin-left: 5vw;
     margin-top: 150px;
 }
 .ContactMe {
     display:flex;
     justify-content: flex-end;
-    margin-right: 100px;
+    margin-right: 10vw;
 }
 .ContactMe > a {
     margin-right:28px;
@@ -50,4 +50,23 @@
     border-radius:12px;
     width:100px;
     font-size: 18px;
+}
+.myProfilePic {
+    height:440px;
+}
+/* Media Queries */
+@media screen and (max-width:1000px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width:500px) {
+    .myProfilePic {
+        height:350px;
+    }
+}
+@media screen and (max-width:350px) {
+    .myProfilePic {
+        height:200px;
+    }
 }

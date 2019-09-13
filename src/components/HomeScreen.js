@@ -13,7 +13,7 @@ function HomeScreen () {
                     <div className="AboutMe">
                         <h1 style={{fontSize:62}}>Hola!</h1>
                         <p>
-                            I am a Full Stack Developer and Ui/Ux Designer, I am currently a senior year Computer Science student at Jaypee Institute Of Information Technology.
+                            I am a Full Stack Developer and Ui/Ux Designer, I am persuing computer science engineering at Jaypee Institute Of Information Technology.
                         </p>
                         <p>
                             I love open-source and contributed in many projects, and worked as student developer in Google Summer Of Code under JBOSS Community.
@@ -29,7 +29,7 @@ function HomeScreen () {
                             <button style={{backgroundColor:"#FFEA00"}}><a href="https://docs.google.com/document/d/1j_EQXQy7UizqMIsNqQD6NL6xl-LoJPCrhq1yag6uEqo/edit?usp=sharing" style={{textDecoration:"none",color:"black"}}>Open CV</a></button>
                         </div>
                     </div>
-                    <div className="MyPic"><img alt="My face" style={{height:440}} src={Me}/></div>
+                    <div className="MyPic"><img alt="My face" className="myProfilePic" src={Me}/></div>
                 </div>
                 
             </div>

@@ -15,3 +15,9 @@
     grid-template-columns: auto auto auto;
     gap: 100px;
 }
+/* Media Queries */
+@media screen and (max-width:700px) {
+    .myGrid {
+        grid-template-columns: auto;
+    }
+}
