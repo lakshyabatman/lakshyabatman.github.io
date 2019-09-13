@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Rasa|Source+Code+Pro&display=swap');
+.title {
+    text-decoration: underline;
+    font-family: 'Rasa', serif;
+    font-size: 22px;
+    color:white;
+}
+.Project {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+}
