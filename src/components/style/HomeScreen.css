@@ -3,8 +3,7 @@
 .HomeScreen {
     background-color:#212121;
     color:#FFEA00;
-    padding: 200px 5vw;
-    padding-top: 110px;
+    padding: 110px 5vw;
 }
 
 .row {
@@ -14,7 +13,7 @@
     justify-content: flex-start;
 }
 #Name {
-    font-size: 60px;
+    font-size: 6vh;
     margin-bottom: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -25,17 +24,14 @@
 }
 
 .AboutMe > p {
-    text-align: justify;
+    /* text-align: justify; */
     margin-right: 10vw;
     max-width: 800px;
-    font-size: 34px;
+    font-size: 2vw;
     font-weight: 300;
     color:#FFEFEF;
 }
-.MyPic {
-    margin-left: 5vw;
-    margin-top: 150px;
-}
+
 .ContactMe {
     display:flex;
     justify-content: flex-end;
@@ -68,5 +64,16 @@
 @media screen and (max-width:350px) {
     .myProfilePic {
         height:200px;
+    }
+}
+@media screen and (max-width:750px) {
+    .AboutMe > p {
+        font-size:18px;
+    }
+}
+@media screen and (min-width:400px) {
+    .MyPic {
+        margin-left: 5vw;
+        margin-top: 150px;
     }
 }

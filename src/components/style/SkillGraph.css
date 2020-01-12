@@ -1,0 +1,11 @@
+#graph-wrapper {
+    background-color:#212121;
+    color:#FFEA00;
+    padding: 0 5vw;
+}
+.head {
+    font-size: 6vh;
+    margin-bottom: 40px;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+}

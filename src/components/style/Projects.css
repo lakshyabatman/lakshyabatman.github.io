@@ -19,5 +19,6 @@
 @media screen and (max-width:700px) {
     .myGrid {
         grid-template-columns: auto;
+        grid-gap: 40px;
     }
 }

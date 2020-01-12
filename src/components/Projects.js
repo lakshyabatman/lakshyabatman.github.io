@@ -11,12 +11,12 @@ class Projects extends Component {
                     content:"Developed Entire UI for the social media and added new functionalites in it. Tech Stack: NodeJS and VueJS"
                 },
                 {
-                    title:"Coverge 2019 Website",
-                    content:"Developed College Fest website, under the mentorships of seniors. Tech Stack: NodeJS, HTML,CSS and Bootstrap."
+                    title:"Converge 2019 and 2020 Website",
+                    content:"Developed College Fest website for two consecutive years,one under the mentorships of seniors and in second I've mentored juniors. Tech Stack: NodeJS, HTML,CSS and Bootstrap."
                 },
                 {
-                    title:"Github User Finder",
-                    content:"A single page application, which displays github user details on input. Tech Stack: HTMl, Bootstrap and JS(es6+)."
+                    title:"Github User and Readme Finder",
+                    content:"A VueJS application, which let's user to search github profiles and renders their projects's Readme on browser. Tech Stack: VueJS"
                 },
                 {
                     title:"Connect Place",
