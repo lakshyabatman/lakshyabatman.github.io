@@ -8,13 +8,15 @@
     "react-chartjs-2": "^2.8.0",
     "react-dom": "^16.9.0",
     "react-scripts": "^3.3.0",
-    "react-typist": "^2.0.5"
+    "react-typist": "^2.0.5",
+    "serve": "^11.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "serve": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start": "serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
