@@ -7,6 +7,7 @@
     font-family: 'Source Code Pro', monospace;
     border:1px solid #FFEA00;
     padding:20px;
+    box-shadow: 17px 8px;
     display: inline-flexbox;
     flex-direction: column;
     max-width:500px;
