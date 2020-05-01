@@ -1,0 +1,29 @@
+.workExp-wrapper {
+    background-color:#212121;
+    color:#FFEA00;
+    padding: 10px 5vw;
+    padding-bottom: 100px;
+    font-family: 'Roboto';
+    position: relative;
+}
+.workExp-wrapper > h1 {
+    font-size: 6vh;
+
+}
+.wrap {
+    margin-top: 100px;
+}
+.divider {
+    width:20px;
+    height:75%;
+    position: absolute;
+    background-color: #FFEA00;
+    top:10%;
+    left:50%;
+    border-radius: 10px;
+}
+@media (max-width:1287px) {
+    .divider {
+        display: none;
+    }
+}

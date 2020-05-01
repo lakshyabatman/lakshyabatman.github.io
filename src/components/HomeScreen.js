@@ -30,7 +30,7 @@ function HomeScreen () {
                             I love open-source and contributed in many projects, and worked as student developer in Google Summer Of Code under JBOSS Community.
                         </p>
                         <p>
-                           Also, I am python ethnusiast and loves to automate boring job using python.
+                           Also, I am python ethnusiast and loves to automate boring jobs using python.
                         </p>
                         <div className="ContactMe">
                             <a href="mailto:lakshya.khera@gmail.com"><i className="fa fa-envelope" style={{fontSize:35}}></i></a>

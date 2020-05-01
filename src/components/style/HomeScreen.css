@@ -77,3 +77,12 @@
         margin-top: 150px;
     }
 }
+@media (max-width:373px) {
+    .ContactMe {
+        margin-right: 0;
+        display: block;
+    }
+    .ContactMe > button {
+        margin-top:10px;
+}
+}
