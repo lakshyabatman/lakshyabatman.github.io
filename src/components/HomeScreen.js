@@ -1,7 +1,7 @@
 import React from 'react'
-import Typist from 'react-typist'
 import './style/HomeScreen.css'
 import '../../node_modules/react-typist/dist/Typist.css'
+import ReactTypist from './TypistComponent'
 import Me from './images/me.png'
 function HomeScreen () {
     return (
@@ -9,16 +9,7 @@ function HomeScreen () {
             <div className="wrapper">
                 <div>
                     <h1 id="Name">I'm Lakshya </h1>
-                    <Typist  cursor={{show:false}}>
-                        <span id="TagLine">A </span>
-                        <span id="TagLine">Full Stack Developer</span>
-                        <Typist.Delay ms={2000}/>
-                        <Typist.Backspace count={20} delay={200}/>
-                        <span id="TagLine">UI/UX Designer</span>
-                        <Typist.Delay ms={2000}/>
-                        <Typist.Backspace count={14} delay={200}/>
-                        <span id="TagLine">Mobile App Developer</span>
-                    </Typist>
+                    <ReactTypist/>
                 </div>
                 <div className="row">
                     <div className="AboutMe">
@@ -33,11 +24,11 @@ function HomeScreen () {
                            Also, I am python ethnusiast and loves to automate boring jobs using python.
                         </p>
                         <div className="ContactMe">
-                            <a href="mailto:lakshya.khera@gmail.com"><i className="fa fa-envelope" style={{fontSize:35}}></i></a>
-                            <a href="https://lakshyakhera.wordpress.com/"><i className="fa fa-wordpress" style={{fontSize:37}}></i></a>
-                            <a href="https://github.com/lakshyabatman"><i className="fa fa-github" style={{fontSize:40}}></i></a>
-                            <a href="https://www.linkedin.com/in/lakshya-khera-52b67718/"><i className="fa fa-linkedin" style={{fontSize:40}}></i></a>
-                            <button style={{backgroundColor:"#FFEA00"}}><a href="https://docs.google.com/document/d/1j_EQXQy7UizqMIsNqQD6NL6xl-LoJPCrhq1yag6uEqo/edit?usp=sharing" style={{textDecoration:"none",color:"black"}}>Open CV</a></button>
+                            <a href="mailto:lakshya.khera@gmail.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-envelope" style={{fontSize:35}}></i></a>
+                            <a href="https://medium.com/@lakshya.khera" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium" style={{fontSize:37}}></i></a>
+                            <a href="https://github.com/lakshyabatman" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" style={{fontSize:40}}></i></a>
+                            <a href="https://www.linkedin.com/in/lakshya-khera-52b67718/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin" style={{fontSize:40}}></i></a>
+                            <button style={{backgroundColor:"#FFEA00"}}><a href="https://drive.google.com/file/d/1dwvh_uG9-i3s83-RXIWO7MRu6imdELgS/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none",color:"black"}}>Open CV</a></button>
                         </div>
                     </div>
                     <div className="MyPic"><img alt="My face" className="myProfilePic" src={Me}/></div>

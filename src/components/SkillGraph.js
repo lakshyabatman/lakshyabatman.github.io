@@ -6,7 +6,7 @@ class SkillGraph extends React.Component {
         super()
         this.state = {
             data : {
-                labels: ['NodeJS', 'ReactJS', 'VueJS', 'Javascript', 'Python', 'MongoDB', 'UI/UX'],
+                labels: ['NodeJS', 'ReactJS', 'VueJS', 'Javascript', 'Python', 'MongoDB', 'Typescript','C++'],
                 datasets: [
                   {
                     label: 'Score',
@@ -15,7 +15,7 @@ class SkillGraph extends React.Component {
                     borderWidth: 1,
                     hoverBackgroundColor: 'rgba(255,99,132,0.4)',
                     hoverBorderColor: 'rgba(255,99,132,1)',
-                    data: [7.5, 7, 7.5, 7.5, 7, 7, 6.5 ],
+                    data: [7.5, 7, 7.5, 7.5, 7, 7.5, 7 ,7.5 ],
                     barPercentage: 0.9,
                     categoryPercentage: 0.6
                   }

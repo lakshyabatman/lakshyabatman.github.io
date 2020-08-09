@@ -3,37 +3,24 @@ export const workExp = [
         employer:'Polyrithm Technologies',
         title:'Full Stack Engineer',
         duration:'Present',
-        description:`Building frontend and backend of various 
-        Products under the organisation, which 
-        Includes working with Typescript and NestJS
-        `
+        description:`Involves building modular and scalable frontend and backend for multiple projects, using NestJS, Angular, VueJS, MongoDB and MySQL and proper documentation of every modules built.`
     },
     {
         employer:'Google Summer Of Code',
         title:'Student Developer',
         duration:'2 months',
-        description:`Developed and documented 16 UI/UX Modules
-        for the social media platform DONUT, including
-        Web-push notification system, responsive UI,
-        Profile and news feed view.
-        `
+        description:`Involved in building 16 UI/UX modules and designing database and seting up backend and frontend from stratch for social platform Donut.`
     },
     {
         employer:'IT Bodhi',
         title:'Web Development Intern',
         duration:'3 months',
-        description:`Developed the new UI and payment gateway 
-        For their course website, and created a 
-        System admin panel using PHP and Javascript.
-        `
+        description:`Involved in building admin panel for their platform using PHP and MYSQL. Refurbished their web platform and added responisve pages in it.`
     },
     {
         employer:'Digital Maths',
         title:'Web and mobile development intern',
         duration:'2 months',
-        description:`Developed web applications and websites
-        Including holiday booking mobile application,
-        Landing pages for several clients across globe.
-        `
+        description:`Built mobile and web applications for multiple clients across the globe. Also built static websites for many clients as well.`
     }
 ]
