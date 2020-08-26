@@ -21,7 +21,11 @@ class Projects extends Component {
                 {
                     title:"Automated Birthday Wisher",
                     content:"Developed a Python Script which lets user to login via their google account and this script sends birthday wishes to their google contact using calendar API. Tech Stack: Python"
-                },
+                }, 
+                {
+                    title:"Chat room",
+                    content:"Simple realtime chat room using Socket.io and Express, user can join conversation using nicknames."
+                }
                 
             ]
             }
