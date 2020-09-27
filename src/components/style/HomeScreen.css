@@ -3,11 +3,11 @@
 .HomeScreen {
     background-color:#212121;
     color:#FFEA00;
-    padding: 110px 5vw;
+    padding: 40px 5vw;
 }
 
 .row {
-    margin-top: 80px;
+    margin-top: 0px;
     display:flex;
     font-family: 'Roboto';
     justify-content: flex-start;
