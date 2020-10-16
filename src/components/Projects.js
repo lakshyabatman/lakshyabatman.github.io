@@ -11,6 +11,10 @@ class Projects extends Component {
                     content:'A light weight CLI which installs React application and setup Redux on single prompt.'
                 },
                 {
+                    title:'Ticket booking service',
+                    content:'A simple NodeJS API with features like book tickets,add movies, get schedules,automated ticket expiration, the application architecture follows repository design pattern.'
+                },
+                {
                     title:'P2P video chat platform',
                     content:'Simple Peer 2 peer video chat platform using webrtc and signalhub. The application is bundled using webpack and served on NodeJS server.'
                 },

@@ -1,8 +1,14 @@
 export const workExp = [
     {
+      employer: 'Zomentum',
+      title: 'Engineering intern',
+      duration: 'Present',
+      description:'Working and collaborating with marketing team to get more leads and also working on developing Zomentum\'s website.'
+    },
+    {
         employer:'Polyrithm Technologies',
         title:'Full Stack Engineer',
-        duration:'Present',
+        duration:'6 months',
         description:`Involves building modular and scalable frontend and backend for multiple projects, using NestJS, Angular, VueJS, MongoDB and MySQL and proper documentation of every modules built.`
     },
     {
