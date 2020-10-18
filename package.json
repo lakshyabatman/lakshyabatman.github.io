@@ -1,5 +1,6 @@
 {
-  "name": "my-portfolio",
+  "name": "lakshyakhera-portfolio",
+  "website":"https://lakshyakhera.space",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

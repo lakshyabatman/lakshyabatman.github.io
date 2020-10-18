@@ -20,7 +20,7 @@ function HomeScreen () {
                             I'm incoming SDE intern @Zomentum. I've worked as student developer in Google Summer Of Code 2019 in JBOSS(Codeuino).
                         </p>
                         <p>
-                            I love contributed to open source projects and working on multiple projects. Apart from it, I love documenting my joruney so I write blogs, posts photos on instagram!
+                            I love contributing to open source projects and working on multiple projects. Apart from it, I love documenting my journey so I write blogs, posts photos on instagram!
                         </p>
                         <div className="ContactMe">
                             <a href="mailto:lakshya.khera@gmail.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-envelope" style={{fontSize:35}}></i></a>
