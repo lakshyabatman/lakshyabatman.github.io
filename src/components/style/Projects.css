@@ -12,7 +12,7 @@
 }
 .myGrid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 30% 30% auto;
     gap: 100px;
 }
 /* Media Queries */

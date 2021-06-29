@@ -1,15 +1,21 @@
 export const workExp = [
     {
+        employer: 'Zomentum',
+        title: 'Software Engineer',
+        duration: 'Present',
+        description:"Currently working on the Zomentum's platform, building and shipping multiple features both in frontend and backend."
+    },
+    {
       employer: 'Zomentum',
-      title: 'Engineering intern',
-      duration: 'Present',
-      description:'Working and collaborating with marketing team to get more leads and also working on developing Zomentum\'s website.'
+      title: 'Software Engineer intern',
+      duration: '6 months',
+      description:'Built several features in backend and  frontennd architecture, worked on integrating payment gateway (Connect Booster) in documents, apart from it, also worked with sales and marketing team to built python web scrapers for various purposes.'
     },
     {
         employer:'Polyrithm Technologies',
         title:'Full Stack Engineer',
         duration:'6 months',
-        description:`Involves building modular and scalable frontend and backend for multiple projects, using NestJS, Angular, VueJS, MongoDB and MySQL and proper documentation of every modules built.`
+        description:`Involved in building modular and scalable frontend and backend for multiple projects, using NestJS, Angular, VueJS, MongoDB and MySQL and proper documentation of every modules built.`
     },
     {
         employer:'Google Summer Of Code',

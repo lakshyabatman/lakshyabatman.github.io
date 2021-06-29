@@ -5,9 +5,11 @@
   "private": true,
   "dependencies": {
     "chart.js": "^2.9.3",
+    "framer-motion": "^4.1.17",
     "react": "^16.9.0",
     "react-chartjs-2": "^2.8.0",
     "react-dom": "^16.9.0",
+    "react-intersection-observer": "^8.32.0",
     "react-scripts": "^3.3.0",
     "react-typist": "^2.0.5",
     "serve": "^11.3.0"
