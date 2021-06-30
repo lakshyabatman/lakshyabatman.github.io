@@ -28,7 +28,7 @@ function HomeScreen () {
                             <a href="https://github.com/lakshyabatman" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" style={{fontSize:40}}></i></a>
                             <a href="https://www.linkedin.com/in/lakshya-khera-52b67718/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin" style={{fontSize:40}}></i></a>
                             <a href="https://twitter.com/lak_shya22" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter" style={{fontSize:40}}></i></a>
-                            <button style={{backgroundColor:"#FFEA00"}}><a href="https://drive.google.com/file/d/1HIL7dHlDduhmHwSiGCGy5ghHG-E6pAbp/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none",color:"black"}}>Open CV</a></button>
+                            <button style={{backgroundColor:"#FFEA00"}}><a href="https://github.com/lakshyabatman/lakshyabatman.github.io/blob/master/public/Lakshya%20Khera's%20Resume.pdf" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none",color:"black"}}>Open CV</a></button>
                         </div>
                     </div>
                     <div className="MyPic"><img alt="My face" className="myProfilePic" src={Me}/></div>
