@@ -1,0 +1,27 @@
+
+.SkillCard {
+    min-width: 200px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    color: white;
+    font-family: 'Roboto';
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+.SkillCard > h1 {
+    text-align: end;
+    font-size: 42px;
+
+}
+
+.SkillCard > img {
+    max-width: 250px;
+    min-width: 200px;
+    position: absolute;
+    bottom: -30px;
+    left: -100px;
+    
+}
