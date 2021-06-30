@@ -1,26 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc6a4068.chunk.css",
-    "main.js": "/static/js/main.e8474565.chunk.js",
-    "main.js.map": "/static/js/main.e8474565.chunk.js.map",
+    "main.css": "/static/css/main.1d90e4eb.chunk.css",
+    "main.js": "/static/js/main.863e5c47.chunk.js",
+    "main.js.map": "/static/js/main.863e5c47.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4f7df951.js",
     "runtime-main.js.map": "/static/js/runtime-main.4f7df951.js.map",
     "static/css/2.dbd8b1e0.chunk.css": "/static/css/2.dbd8b1e0.chunk.css",
-    "static/js/2.d86006ff.chunk.js": "/static/js/2.d86006ff.chunk.js",
-    "static/js/2.d86006ff.chunk.js.map": "/static/js/2.d86006ff.chunk.js.map",
+    "static/js/2.4eee4ddd.chunk.js": "/static/js/2.4eee4ddd.chunk.js",
+    "static/js/2.4eee4ddd.chunk.js.map": "/static/js/2.4eee4ddd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7bcc2f09646c42fe4d0f7ed8c2cd5f98.js": "/precache-manifest.7bcc2f09646c42fe4d0f7ed8c2cd5f98.js",
+    "precache-manifest.1afae4fa75d7f5394c3e59c3aaf415a1.js": "/precache-manifest.1afae4fa75d7f5394c3e59c3aaf415a1.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.dbd8b1e0.chunk.css.map": "/static/css/2.dbd8b1e0.chunk.css.map",
-    "static/css/main.fc6a4068.chunk.css.map": "/static/css/main.fc6a4068.chunk.css.map",
-    "static/js/2.d86006ff.chunk.js.LICENSE": "/static/js/2.d86006ff.chunk.js.LICENSE",
-    "static/media/me.png": "/static/media/me.7d45cb2c.png"
+    "static/css/main.1d90e4eb.chunk.css.map": "/static/css/main.1d90e4eb.chunk.css.map",
+    "static/js/2.4eee4ddd.chunk.js.LICENSE": "/static/js/2.4eee4ddd.chunk.js.LICENSE",
+    "static/media/cpp-logo.png": "/static/media/cpp-logo.4fce8d00.png",
+    "static/media/email.svg": "/static/media/email.4155532f.svg",
+    "static/media/github.svg": "/static/media/github.67910a24.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.73e8a8ac.svg",
+    "static/media/me.png": "/static/media/me.7d45cb2c.png",
+    "static/media/mongodb-logo.png": "/static/media/mongodb-logo.ecc6f9e5.png",
+    "static/media/node-logo.png": "/static/media/node-logo.7ed5cbb6.png",
+    "static/media/python-logo.png": "/static/media/python-logo.10327dc6.png",
+    "static/media/react-logo.png": "/static/media/react-logo.81f3ec1c.png",
+    "static/media/sass-logo.png": "/static/media/sass-logo.14ce879b.png",
+    "static/media/scala-logo.png": "/static/media/scala-logo.3246fc78.png",
+    "static/media/wordpress.svg": "/static/media/wordpress.3e73c336.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4f7df951.js",
     "static/css/2.dbd8b1e0.chunk.css",
-    "static/js/2.d86006ff.chunk.js",
-    "static/css/main.fc6a4068.chunk.css",
-    "static/js/main.e8474565.chunk.js"
+    "static/js/2.4eee4ddd.chunk.js",
+    "static/css/main.1d90e4eb.chunk.css",
+    "static/js/main.863e5c47.chunk.js"
   ]
 }
