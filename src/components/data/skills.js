@@ -5,6 +5,11 @@ export const Skills = [
         colour: '#282c34'
     }, 
     {
+        title:"Java",
+        image:"java.png",
+        colour:'#098dec'
+    },
+    {
         title: 'Node',
         image: 'node-logo.png',
         colour:'#43853d'
@@ -33,5 +38,6 @@ export const Skills = [
         title: 'C++',
         image: 'cpp-logo.png',
         colour:'#045086'
-    }
+    },
+    
 ]

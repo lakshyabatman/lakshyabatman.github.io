@@ -9,16 +9,14 @@ const SkillCard = (props) => {
         left: { translateX: props.initial-100 }
       }
 
-    const changeAnimation = () => {
-          
-      }
+
     useEffect(() => {
           controls.start('right')
       },[])
     return (
         <motion.div className="SkillCard" style={{translateX: props.initial,backgroundColor: props.colour, boxShadow:`0px 20px 5px ${props.colour}`}} animate={controls} variants={boxVariants} transition={{ duration:10,ease: "linear" }} onAnimationComplete={(d) => {
             if(d) {
-                if(d == 'right') {
+                if(d === 'right') {
                     controls.start('left')
                 }else {
                     controls.start('right')
@@ -26,7 +24,7 @@ const SkillCard = (props) => {
             }
         }}>
             <h1>{props.title}</h1>
-            <img src={require(`../images/${props.image}`)}/>
+            <img src={require(`../images/${props.image}`)} alt={props.title}/>
         </motion.div>
     )
 }
