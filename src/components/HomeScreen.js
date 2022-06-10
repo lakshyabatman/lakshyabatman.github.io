@@ -24,7 +24,7 @@ function HomeScreen () {
                         </p>
                         <div className="ContactMe">
                             <a href="mailto:lakshya.khera@gmail.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-envelope" style={{fontSize:35}}></i></a>
-                            <a href="https://medium.com/@lakshya.khera" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium" style={{fontSize:37}}></i></a>
+                            <a href="https://medium.com/@lakshya-khera" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium" style={{fontSize:37}}></i></a>
                             <a href="https://github.com/lakshyabatman" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" style={{fontSize:40}}></i></a>
                             <a href="https://www.linkedin.com/in/lakshya-khera-52b67718/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin" style={{fontSize:40}}></i></a>
                             <a href="https://twitter.com/lak_shya22" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter" style={{fontSize:40}}></i></a>
