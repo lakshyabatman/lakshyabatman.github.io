@@ -1,5 +1,9 @@
 export const PROJECTS = [
     {
+        title:"NFT Letters",
+        content:"Platform which allow user to mint encrypted letters for their loved ones as NFT. Built on Polygon"
+    },
+    {
         title:"Notion Diary",
         content:"A Simple application which bootstrap your notion pages into blogsite"
     },

@@ -1,8 +1,20 @@
 export const workExp = [
     {
+        employer: 'Fellow',
+        title: 'Polygon Fellowship (Begineer Track)',
+        duration: 'Incoming',
+        description:"-------------------------------------------------------------------------------------------------------------------"
+    },
+    {
+        employer: 'Jupiter Money',
+        title: 'Software Engineer (Backend)',
+        duration: 'Incoming',
+        description:"-------------------------------------------------------------------------------------------------------------------"
+    },
+    {
         employer: 'Zomentum',
         title: 'Software Engineer',
-        duration: 'Present',
+        duration: '1 year',
         description:"Currently working on the Zomentum's platform, building and shipping multiple features both in frontend and backend."
     },
     {

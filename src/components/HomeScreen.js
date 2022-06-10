@@ -1,7 +1,7 @@
 import React from 'react'
 import './style/HomeScreen.css'
 import '../../node_modules/react-typist/dist/Typist.css'
-import Me from './images/me.png'
+import Me from './images/me.jpeg'
 function HomeScreen () {
     return (
         <div className="HomeScreen">
