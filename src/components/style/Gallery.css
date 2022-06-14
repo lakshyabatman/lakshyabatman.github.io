@@ -1,0 +1,23 @@
+.gallery-wrapper {
+    background-color:#212121;
+    color:#FFEA00;
+    padding: 10px 5vw;
+    padding-bottom: 100px;
+    font-family: 'Roboto';
+    position: relative;
+}
+.gallery-wrapper > h1 {
+    margin-bottom: 5vh;
+    font-size: 50px;
+}
+
+.imager_container {
+    margin: auto;
+    max-width: 70%;
+
+}
+
+.imager_container > img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
