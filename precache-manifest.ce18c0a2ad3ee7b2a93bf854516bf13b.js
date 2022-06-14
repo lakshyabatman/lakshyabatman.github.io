@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f2018772d9d175854948e8d666cff0b",
+    "revision": "5e7bf31b4cd3d96162c9b9c9e28107c8",
     "url": "/index.html"
   },
   {
-    "revision": "c95410776750ffb07fc7",
+    "revision": "6770a3e9d355cb08bd42",
     "url": "/static/css/2.dbd8b1e0.chunk.css"
   },
   {
-    "revision": "ebaf1abcda7ff5a89eb3",
-    "url": "/static/css/main.ecde9395.chunk.css"
+    "revision": "e3467e9e882f3ff421a2",
+    "url": "/static/css/main.51bae369.chunk.css"
   },
   {
-    "revision": "c95410776750ffb07fc7",
-    "url": "/static/js/2.5168ab63.chunk.js"
+    "revision": "6770a3e9d355cb08bd42",
+    "url": "/static/js/2.f2d9a296.chunk.js"
   },
   {
-    "revision": "4dfe1a0441d692066dc4b5b1fb0eeac4",
-    "url": "/static/js/2.5168ab63.chunk.js.LICENSE"
+    "revision": "76b9434fc5fc6632d0d326a000a5c7eb",
+    "url": "/static/js/2.f2d9a296.chunk.js.LICENSE"
   },
   {
-    "revision": "ebaf1abcda7ff5a89eb3",
-    "url": "/static/js/main.9388ec79.chunk.js"
+    "revision": "e3467e9e882f3ff421a2",
+    "url": "/static/js/main.2441f754.chunk.js"
   },
   {
     "revision": "0a09a5a51a3079611896",
@@ -74,6 +74,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3246fc78d560112c1c936ad592628ce3",
     "url": "/static/media/scala-logo.3246fc78.png"
+  },
+  {
+    "revision": "2683bca1fe6dfbfafe97ab75c06b8a0a",
+    "url": "/static/media/slack_zomentum_akshay.2683bca1.png"
+  },
+  {
+    "revision": "2280412a7bbfbec9cdc20cf191536e7a",
+    "url": "/static/media/slack_zomentum_ankit.2280412a.png"
   },
   {
     "revision": "3e73c336909573dd1b0b9d271ccb8f74",
