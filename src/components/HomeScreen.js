@@ -17,7 +17,7 @@ function HomeScreen () {
                             I'm a software engineer. 
                         </p>
                         <p>
-                            I'm currently working as Software Engineer at Zomentum. I've worked as student developer in Google Summer Of Code 2019 in JBOSS(Codeuino).
+                            Working at Jupiter Money, I've contributed to and built multiple projects. I've been fellow in Polygon Fellowship 2022 and Student Developer in GSOC 2019.
                         </p>
                         <p>
                             I love contributing to open source projects and working on multiple projects. Apart from it, I love documenting my journey so I write blogs and I'm a huge anime fan.

@@ -1,15 +1,15 @@
 export const workExp = [
     {
-        employer: 'Fellow',
-        title: 'Polygon Fellowship (Begineer Track)',
-        duration: 'Incoming',
-        description:"-------------------------------------------------------------------------------------------------------------------"
-    },
-    {
         employer: 'Jupiter Money',
         title: 'Software Engineer (Backend)',
-        duration: 'Incoming',
-        description:"-------------------------------------------------------------------------------------------------------------------"
+        duration: 'Current',
+        description:"Currently working in Lending (On Demand Salary), implemented KYC and UAN verification which improved and automated users onboarding on On Demand Salary . Also contributed in Referral architecture as well. Implemented Coupon code logic which improved referral attributions"
+    },
+    {
+        employer: 'Fellow',
+        title: 'Polygon Fellowship (Begineer Track)',
+        duration: '3 monts',
+        description:"Successfully finished all assignments and shipped MVP of BuidlDAO during fellowship"
     },
     {
         employer: 'Zomentum',

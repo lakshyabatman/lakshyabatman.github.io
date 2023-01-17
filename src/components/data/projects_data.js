@@ -1,5 +1,13 @@
 export const PROJECTS = [
     {
+        title:"NFTngine",
+        content:"A No-Code platform which allow users to mint AI generated images as NFTs. Built on Polygon"
+    },
+    {
+        title:"Orbxspace",
+        content:"A framework angonstic SDK which allow users to spin up Orbis powered community forum in two lines of code."
+    },
+    {
         title:"NFT Letters",
         content:"Platform which allow user to mint encrypted letters for their loved ones as NFT. Built on Polygon"
     },
