@@ -8,10 +8,9 @@
     border:1px solid #FFEA00;
     padding:20px;
     box-shadow: 17px 8px;
-    display: inline-flexbox;
     flex-direction: column;
-    max-width:500px;
-    margin-bottom: 100px;
+    width:100%;
+    margin-bottom: 50px;
 }
 .exp-card > h4 {
     font-weight: 800;
@@ -23,9 +22,8 @@
     border-bottom-style:  outset;
     display: inline-block;
 }
-.left {
-    justify-content: flex-start;
-}
-.right {
-    justify-content: flex-end;
+
+
+.exp-card-description > li {
+    margin-bottom: 10px;
 }

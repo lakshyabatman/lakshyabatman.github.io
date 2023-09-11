@@ -28,7 +28,11 @@ const WorkExpCard = (props) => {
             <div className="exp-card" >
                 <h4>{props.exp.title}</h4>
                 <h5>{props.exp.employer}</h5>
-                <p>{props.exp.description}</p>
+                <ul className='exp-card-description'>
+                  {props.exp.description.map(d => {
+                    return (<li>{d}</li>)
+                  })}
+                </ul>
                 <p>Job duration : <span style={{fontWeight:800}}>{props.exp.duration}</span></p>
             </div>
         </motion.div>

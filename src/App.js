@@ -3,7 +3,7 @@ import HomeScreen from './components/HomeScreen'
 import Projects from './components/Projects'
 import WorkExp from './components/WorkExp'
 import SkillCardRow from './components/SkillCardRow';
-import Gallery from './components/Gallery';
+// import Gallery from './components/Gallery';
 function App() {
   return (
     <div>
@@ -11,7 +11,7 @@ function App() {
       <WorkExp/>
       <SkillCardRow/>
       <Projects/>
-      <Gallery/>
+      {/* <Gallery/> */}
     </div>
   );
 }

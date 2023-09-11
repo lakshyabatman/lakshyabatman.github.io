@@ -6,12 +6,11 @@ const WorkExp = (props) => {
     let expList =[]
     let createList = () => {
         for(var i =0;i<workExp.length;i++) {
-            let Class="left"
-            if((i+1)%2 ===0) {
-                Class= "right"
-            }
-            console.log(Class)
-            expList.push(<WorkExpCard test="test" Align={Class} key={i} exp={workExp[i]} />)
+            // let Class="left"
+            // if((i+1)%2 ===0) {
+            //     Class= "right"
+            // }
+            expList.push(<WorkExpCard test="test" Align={"left"} key={i} exp={workExp[i]} />)
         }
         return expList
     }
@@ -23,7 +22,7 @@ const WorkExp = (props) => {
             <div className="wrap">
                 {createList()}
             </div>
-            <div className="divider"></div>
+            {/* <div className="divider"></div> */}
         </div>
     )
 }
