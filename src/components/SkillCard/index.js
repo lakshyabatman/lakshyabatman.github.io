@@ -12,7 +12,7 @@ const SkillCard = (props) => {
 
     useEffect(() => {
           controls.start('right')
-      },[])
+      },[controls])
     return (
         <motion.div className="SkillCard" style={{translateX: props.initial,backgroundColor: props.colour, boxShadow:`0px 20px 5px ${props.colour}`}} animate={controls} variants={boxVariants} transition={{ duration:10,ease: "linear" }} onAnimationComplete={(d) => {
             if(d) {
