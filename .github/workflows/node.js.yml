@@ -26,13 +26,10 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - name: Set Git Config
-      env:
-        MY_EMAIL: ${{ secrets.MY_EMAIL }}
-        MY_NAME: ${{ secrets.MY_NAME }}
+    - name: Configure Git
       run: |
-        git config --global user.email $MY_EMAIL
-        git config --global user.name $MY_NAME
+        git config --global user.email "${{ secrets.MY_EMAIL }}"
+        git config --global user.name "${{ secrets.MY_NAME }}"
     - run: which git
     - run: npm i
     - run: npm ci
