@@ -26,6 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: which git
     - run: git config --global user.email $MY_EMAIL
     - run: git config --global user.name $MY_NAME
     - run: npm i
