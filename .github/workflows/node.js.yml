@@ -27,7 +27,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: which git
-    - run: echo "s: $MY_EMAIL"
+    - run: echo "s= $MY_EMAIL"
     - run: git config --global user.email ${{ vars.MY_EMAIL }}
     - run: git config --global user.name $MY_NAME
     - run: npm i
