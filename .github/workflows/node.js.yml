@@ -30,9 +30,10 @@ jobs:
       env:
         MY_EMAIL: ${{ secrets.MY_EMAIL }}
         MY_NAME: ${{ secrets.MY_NAME }}
+      run: |
+        git config --global user.email $MY_EMAIL
+        git config --global user.name $MY_NAME
     - run: which git
-    - run: git config --global user.email $MY_EMAIL
-    - run: git config --global user.name $MY_NAME
     - run: npm i
     - run: npm ci
     - run: npm run deploy
