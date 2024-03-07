@@ -32,11 +32,11 @@ jobs:
       run: |
         git config --global user.email "${MY_EMAIL}"
         git config --global user.name "${MY_NAME}"
-        git config --global credential.helper store
-        echo "https://${GITHUB_TOKEN}:x-oauth-basic@github.com" > ~/.git-credentials
     - run: npm i
     - run: npm ci
-    - name: Deploy
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: npm run deploy
+    - name: Build and Deploy
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages # The branch the action should deploy to.
+        folder: build # The folder the action should deploy.
+        token: ${{ secrets.GITHUB_TOKEN }} # GitHub Token for authentication.
