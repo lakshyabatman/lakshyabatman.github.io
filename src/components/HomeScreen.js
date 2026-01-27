@@ -30,7 +30,7 @@ function HomeScreen () {
                             <a href="https://twitter.com/lak_shya22" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter" style={{fontSize:40}}></i></a>
                             <a href="https://lakshya.notiondiary.xyz/" target="_blank" rel="noopener noreferrer"><i className="fa fa-pencil" style={{fontSize:40}}></i></a>
                             <a href="https://www.producthunt.com/@lakshya_khera" target="_blank" rel="noopener noreferrer"><i className="fa fa-product-hunt" style={{fontSize:40}}></i></a>
-                            <button style={{backgroundColor:"#FFEA00"}}><a href="/resume.pdf" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none",color:"black"}}>Open CV</a></button>
+                            <button style={{backgroundColor:"#FFEA00"}}><a href="/Lakshya_Khera_Senior_Software_Engineer.pdf" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none",color:"black"}}>Open CV</a></button>
                         </div>
                     </div>
                     <div className="MyPic"><img alt="My face" className="myProfilePic" src={Me}/></div>
