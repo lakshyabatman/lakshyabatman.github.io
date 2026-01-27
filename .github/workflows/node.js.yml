@@ -2,10 +2,10 @@ name: Deploy
 
 on:
   push:
-    branches: [ main ]   # or master
+    branches: [ main ]
 
 permissions:
-  contents: write        # IMPORTANT: allows pushing to gh-pages
+  contents: write
 
 jobs:
   deploy:
@@ -20,7 +20,13 @@ jobs:
       - run: npm ci
       - run: npm run build
 
+      - name: Configure git identity
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Deploy to GitHub Pages
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx gh-pages -d build
